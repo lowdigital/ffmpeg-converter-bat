@@ -21,7 +21,7 @@ This is a simple batch script that uses FFmpeg to process video files by trimmin
 
 ### Drag and Drop
 
-1. Drag and drop a video file onto the batch file (`ffmpeg-converter.bat`).
+1. Drag and drop a video file onto the batch file (`converter.bat`).
 2. The script will automatically trim the video and save the processed version in the same directory.
 
 ### Command Line
