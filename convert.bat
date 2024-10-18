@@ -24,7 +24,7 @@ set "output_file=%input_dir%%file_name%_fixed%file_extension%"
 set /p original_bitrate=<temp_bitrate.txt
 del temp_bitrate.txt
 if "%original_bitrate%"=="" (
-    echo Ошибка: не удалось извлечь битрейт исходного видео.
+    echo Error: Failed to extract source video bitrate.
     pause
     exit /b 1
 )
