@@ -46,7 +46,6 @@ if %final_duration% LEQ 0 (
 )
 echo Trimming video from %trim_time_start% to %final_duration% seconds.
 "%ffmpeg_path%" -i "%input_file%" -ss %trim_time_start% -t %final_duration% -c:v h264_nvenc -b:v %original_bitrate% -g 30 -c:a aac -b:a 128k -movflags +faststart "%output_file%"
-
 if errorlevel 1 (
     echo Error processing video with FFmpeg.
     pause
