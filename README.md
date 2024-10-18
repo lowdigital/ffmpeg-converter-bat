@@ -42,8 +42,11 @@ The script has two main configuration parameters that control the trimming:
 You can adjust these values directly in the script:
 
 ```batch
-set "trim_time_start=20.06"  :: Start trimming after 20.06 seconds
-set "trim_time_end=60.00"      :: Stop trimming at 60 seconds
+:: Start trimming after 20.06 seconds
+set "trim_time_start=20.06"
+
+:: Stop trimming at 60 seconds
+set "trim_time_end=60.00"
 ```
 
 ## Installation
