@@ -6,6 +6,7 @@ This is a simple batch script that uses FFmpeg to process video files by trimmin
 ## Features
 
 - Trims video files from a specified start time and end time.
+- Fixes errors related to insufficient keyframes.
 - Maintains the original video bitrate.
 - Utilizes GPU acceleration (NVIDIA NVENC) for video encoding (H.264).
 - Automatically deletes the original video file after processing.
